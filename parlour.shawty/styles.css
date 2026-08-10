@@ -23,6 +23,7 @@ body {
     font-family: 'Inter', sans-serif;
     color: var(--text-white);
     height: 100vh;
+    height: 100dvh;
     width: 100vw;
 }
 
@@ -413,7 +414,7 @@ body {
     }
     
     .bottom-bar {
-        padding-bottom: 20px;
+        padding-bottom: 32px;
     }
 
     .player-pill {
