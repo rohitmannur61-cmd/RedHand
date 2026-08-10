@@ -401,6 +401,10 @@ body {
 
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
+    body {
+        background-image: url('Beauty_parlour_mobile_bg.jpg');
+    }
+    
     .top-bar {
         padding: 16px;
         flex-wrap: wrap;
