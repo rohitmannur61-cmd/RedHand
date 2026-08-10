@@ -401,7 +401,7 @@ body {
 /* RESPONSIVENESS */
 @media (max-width: 768px) {
     .top-bar {
-        padding: 20px;
+        padding: 16px;
         flex-wrap: wrap;
         gap: 12px;
     }
@@ -409,29 +409,76 @@ body {
     .top-right {
         width: 100%;
         justify-content: center;
-        margin-top: 8px;
+        margin-top: 4px;
     }
     
+    .bottom-bar {
+        padding-bottom: 20px;
+    }
+
     .player-pill {
-        padding: 16px;
-        border-radius: 28px;
-        flex-wrap: wrap;
+        width: 95%;
+        padding: 10px 14px 10px 10px;
+        border-radius: 9999px;
+        gap: 12px;
+        flex-wrap: nowrap;
     }
 
     .thumbnail-wrapper {
-        width: 60px;
-        height: 60px;
+        width: 52px;
+        height: 52px;
     }
 
     .middle-section {
-        min-width: 150px;
+        min-width: 0;
         flex: 1;
+    }
+    
+    .track-title {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .track-artist {
+        font-size: 11px;
+        margin-bottom: 6px;
+    }
+    
+    .progress-bar-container {
+        height: 12px;
+        margin-bottom: 2px;
+    }
+
+    .time-display {
+        font-size: 10px;
+        margin-top: 2px;
     }
 
     .controls {
-        width: 100%;
-        justify-content: center;
+        width: auto;
+        justify-content: flex-end;
         margin-left: 0;
-        margin-top: 8px;
+        margin-top: 0;
+        gap: 8px;
+    }
+    
+    .control-btn {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .control-btn svg {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .play-btn {
+        width: 44px;
+        height: 44px;
+    }
+    
+    .play-btn svg {
+        width: 22px;
+        height: 22px;
     }
 }
